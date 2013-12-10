@@ -1,0 +1,4 @@
+class Artists
+    
+
+end
