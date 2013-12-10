@@ -1,2 +1,6 @@
-<h2>I'm a star</h2>
-<h1><%= @artists %>
+<h2>Here are the artists in your playlist!</h2>
+<ul><% @artists.each do |musician| %>
+	<li><%= musician %> </li>
+	<% end %>
+</ul>
+<a

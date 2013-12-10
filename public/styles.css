@@ -1,0 +1,11 @@
+body {
+ background-color: green;
+  font-family: 'Frijole'
+}
+
+li {
+        float: left;
+        list-style-type: none;
+        margin-left: 40px;
+        margin-top: 8%;
+}

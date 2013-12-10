@@ -1,5 +1,4 @@
-
- class Parser
+class Parser
 
     def initialize
         @artist
@@ -9,7 +8,7 @@
 
 
     def parse_files
-    files = Dir.entries('./data').select {|f| !File.directory? f} #don't want . and .. defaults to get pulled
+    files = Dir.entries('./public/data').select {|f| !File.directory? f} #don't want . and .. defaults to get pulled
     artist = /((.*) (?=\-))/
     song = /(?<=\-\s).*(?=\s\[)/
     genre = /(?<=\[).*(?=\])/
